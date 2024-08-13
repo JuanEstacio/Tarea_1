@@ -1,0 +1,21 @@
+.imagen-o-texto {
+    text-align: center;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%; 
+  }
+  
+  .texto-alternativo {
+    display: none;
+  }
+  
+  @media (max-width: 768px) { 
+    img {
+      display: none;
+    }
+    .texto-alternativo {
+      display: block;
+    }
+  }
